@@ -1,7 +1,8 @@
 # Laravel Twitter handle validation
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/bruno-fernandes/laravel-twitter-handle-validation.svg?style=flat-square)](https://packagist.org/packages/bruno-fernandes/laravel-twitter-handle-validation)
-[![Build Status](https://img.shields.io/travis/bruno-fernandes/laravel-twitter-handle-validation/master.svg?style=flat-square)](https://travis-ci.org/bruno-fernandes/laravel-twitter-handle-validation)
+[![CircleCI](https://circleci.com/gh/bruno-fernandes/laravel-twitter-handle-validation/tree/master.svg?style=svg&circle-token=688b77db6c8a86507c6cc1185b8857071fefd2e4)](https://circleci.com/gh/bruno-fernandes/laravel-twitter-handle-validation/tree/master)
+[![CodeCoverage](https://codecov.io/gh/bruno-fernandes/laravel-twitter-handle-validation/branch/master/graph/badge.svg)](https://codecov.io/github/bruno-fernandes/laravel-twitter-handle-validation?branch=master)
 [![Quality Score](https://img.shields.io/scrutinizer/g/bruno-fernandes/laravel-twitter-handle-validation.svg?style=flat-square)](https://scrutinizer-ci.com/g/bruno-fernandes/laravel-twitter-handle-validation)
 [![Total Downloads](https://img.shields.io/packagist/dt/bruno-fernandes/laravel-twitter-handle-validation.svg?style=flat-square)](https://packagist.org/packages/bruno-fernandes/laravel-twitter-handle-validation)
 
