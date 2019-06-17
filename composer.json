@@ -1,0 +1,54 @@
+{
+    "name": "bruno-fernandes/laravel-twitter-handle-validation",
+    "description": "Twitter handle validation.",
+    "keywords": [
+        "bruno-fernandes",
+        "laravel-twitter-handle-validation"
+    ],
+    "homepage": "https://github.com/bruno-fernandes/laravel-twitter-handle-validation",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bruno Fernandes",
+            "email": "bruno@brunofernandes.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.8.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BrunoFernandes\\LaravelTwitterHandleValidation\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BrunoFernandes\\LaravelTwitterHandleValidation\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BrunoFernandes\\LaravelTwitterHandleValidation\\LaravelTwitterHandleValidationServiceProvider"
+            ],
+            "aliases": {
+                "LaravelTwitterHandleValidation": "BrunoFernandes\\LaravelTwitterHandleValidation\\LaravelTwitterHandleValidationFacade"
+            }
+        }
+    }
+}
