@@ -21,6 +21,7 @@ composer require bruno-fernandes/laravel-twitter-handle-validation
 ``` php
 use Illuminate\Support\Facades\Validator;
 $validator = Validator::make(['handle' => '@ invalid'], ['handle' => 'twitter_handle']);
+
 if ($validator->fails()) {
     // twitter handle validation failed
 }
@@ -50,7 +51,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email bruno@brunofernandes.com instead of using the issue tracker.
+If you discover any security related issues, please email security@brunofernandes.com instead of using the issue tracker.
 
 ## Credits
 
